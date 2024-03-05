@@ -9,6 +9,7 @@ export default {
       backgroundImage: {
         'hero-bg' : "url('/src/assets/images/heroBG1.jpg')",
         'hero-bg2' : "url('/src/assets/images/heroBg2.jpg')",
+        'serviceCard-bg' : "url('/src/assets/images/integrio_home_2_layers_3_2.jpg')",
       },
       fontFamily:{
         mont : ['Montserrat', 'sans-serif'],

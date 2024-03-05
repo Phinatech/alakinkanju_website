@@ -7,7 +7,7 @@ interface iHeroCard {
   content3? : string;
 }
 
-// import img from "../../assets/images/heroBG1.jpg";
+import img from "../../assets/images/down.png";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
 
@@ -26,6 +26,10 @@ const HeroCard:React.FC<iHeroCard> = ({ content1, content2, content3}) => {
 
       <div className='absolute text-[11px] p-[5px] md:text-[14px] lg:text-[16px] lg:p-[7px] bg-white rounded-full right-[2px] md:right-[5px] top-[50%] flex items-center justify-center animate-pulse'>
         <FaArrowRight />
+      </div>
+
+      <div className='absolute w-full bottom-0 left-0'>
+        <img className='w-full' src={img} alt="" />
       </div>
 
       <div className='w-[90%] z-20 text-white flex flex-col gap-4 mt-[80px] md:mt-[40px] items-center md:items-start'>
