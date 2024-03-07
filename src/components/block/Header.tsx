@@ -3,6 +3,7 @@ import React from 'react'
 import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { NavLink } from 'react-router-dom';
+import { Link } from "react-scroll";
 
 const Header = () => {
 
@@ -30,13 +31,13 @@ const Header = () => {
                         <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About</ol>
                     </NavLink>
 
-                    <NavLink to="/">
+                    <Link offset={-100} smooth={true} duration={500} to="testimonies">
                         <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Testimonies</ol>
-                    </NavLink>
+                    </Link>
 
-                    <NavLink to="/">
+                    <Link offset={-100} smooth={true} duration={500} to="contact">
                         <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Contact</ol>
-                    </NavLink>
+                    </Link>
 
                     {/* <NavLink to="/firststep">
                         <button className=' px-4 py-3 bg-[#80c41c] border-none hover:bg-[#3d82b3] text-white font-semibold animate-puls ml-[50px] rounded-[60px] transition-all duration-300 ease-in-out hover:px-5 hover:py-4'>
@@ -75,13 +76,13 @@ const Header = () => {
                             <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About</ol>
                         </NavLink>
 
-                        <NavLink to="/">
+                        <Link  offset={-100} smooth={true} duration={500} to="testimonies">
                             <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Testimonies</ol>
-                        </NavLink>
+                        </Link>
 
-                        <NavLink to="/contact">
+                        <Link offset={-100} smooth={true} duration={500} to="contact">
                             <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Contact</ol>
-                        </NavLink>
+                        </Link>
 
                         {/* <NavLink to="/firststep">
                             <button className='w-[150px] bg-[#80c41c] border-none hover:bg-[#3d82b3] text-white font-semibold animate-pulse  rounded-[60px]'>
