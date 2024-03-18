@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import Contact from "./Contact"
+// import Contact from "./Contact"
 import Hero from "./Hero"
 import Offer from "./Offer"
 import Services from "./Services"
@@ -13,7 +13,7 @@ const HomeComp = () => {
       <Services />
       <Offer />
       <Testimonies />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   )
 }

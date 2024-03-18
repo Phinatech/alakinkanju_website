@@ -21,23 +21,24 @@ const Header = () => {
 
             <h4 className='text-[17px] z-50 shadow-md text-white bg-opacity-40 rounded-[30px] relative p-1 px-3 rounded-m bg-black'>ALAKINKANJU</h4>
 
-            <div className='bg-black bg-opacity-40 rounded-[30px] shadow-md p-3'>
+            <div className='lg:bg-black lg:bg-opacity-40 rounded-[30px] lg:shadow-md p-3'>
                 <li className="hidden lg:flex items-center gap-5 text-[15px] transition-all duration-500 ease-in-out">
                     <NavLink to="/">
                         <ol className='text-white hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
                     </NavLink>
 
-                    <NavLink to='/'>
+                    {/* <NavLink to='/'>
                         <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About</ol>
-                    </NavLink>
+                    </NavLink> */}
 
                     <Link offset={-100} smooth={true} duration={500} to="testimonies">
                         <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Testimonies</ol>
                     </Link>
 
-                    <Link offset={-100} smooth={true} duration={500} to="contact">
+                    {/* <Link offset={-100} smooth={true} duration={500} to="contact"> */}
+                    <NavLink to='/contact'>
                         <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Contact</ol>
-                    </Link>
+                    </NavLink>
 
                     {/* <NavLink to="/firststep">
                         <button className=' px-4 py-3 bg-[#80c41c] border-none hover:bg-[#3d82b3] text-white font-semibold animate-puls ml-[50px] rounded-[60px] transition-all duration-300 ease-in-out hover:px-5 hover:py-4'>
@@ -72,17 +73,18 @@ const Header = () => {
                             <ol className='text-white hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
                         </NavLink>
 
-                        <NavLink to='/'>
+                        {/* <NavLink to='/'>
                             <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About</ol>
-                        </NavLink>
+                        </NavLink> */}
 
                         <Link  offset={-100} smooth={true} duration={500} to="testimonies">
                             <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Testimonies</ol>
                         </Link>
 
-                        <Link offset={-100} smooth={true} duration={500} to="contact">
+                        {/* <Link offset={-100} smooth={true} duration={500} to="contact"> */}
+                        <NavLink to='/'>
                             <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Contact</ol>
-                        </Link>
+                        </NavLink>
 
                         {/* <NavLink to="/firststep">
                             <button className='w-[150px] bg-[#80c41c] border-none hover:bg-[#3d82b3] text-white font-semibold animate-pulse  rounded-[60px]'>

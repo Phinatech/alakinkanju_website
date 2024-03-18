@@ -13,7 +13,7 @@ const Footer = () => {
                     <h4 className="font-bold ">ALAKINKANJU</h4>
 
                     <h5 className="text-[14px] text-white">
-                        Alakinkanju is  a boutique digital transformation consultancy & software development company that provides IT solutions.
+                        Alakinkanju is  a unique digital transformation consultancy & software development company that provides IT solutions.
                     </h5>
 
                     <div className="flex gap-3 items-center text-white text-[20px]">
