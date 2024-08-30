@@ -55,7 +55,7 @@ const Hero = () => {
                 <HeroCard 
                     content1="WE ARE THE BEST"
                     content2="Innovating Tech Solutions For Your Business Growth"
-                    content3="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, tempora praesentium. Molestiae facere odit, quisquam."
+                    content3="Transforming Ideas into Cutting-Edge Digital Solutions:  Your Vision, Our Code."
                 />
             </div>
 
@@ -63,7 +63,7 @@ const Hero = () => {
                 <HeroCard 
                     content1="WE ARE DEDICATED"
                     content2="Revolutionize Your Tech Solutions With Us"
-                    content3="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, tempora praesentium. Molestiae facere odit, quisquam."
+                    content3="Transforming Ideas into Cutting-Edge Digital Solutions:  Your Vision, Our Code."
                  />
             </div>
 

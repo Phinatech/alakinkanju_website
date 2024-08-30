@@ -11,7 +11,7 @@ interface iServiceCard {
 const OfferCard:React.FC<iServiceCard> = ({img, offerName, offerContent}) => {
 
   return (
-    <div className="w-full md:w-[31%] lg:w-[30%] flex flex-col items-center justify-center text-black h-[270px] md:h-[300px] rounded-md p-3 gap-5 md:gap-3 hover:bg-blue-500 hover:border-none transition-all duration-1000 ease-in-out hover:text-white shadow-md">
+    <div className="w-full md:w-[31%] lg:w-[30%] flex flex-col items-center justify-center text-white h-[270px] md:h-[300px] rounded-md p-3 gap-5 md:gap-3 hover:bg-blue-500 hover:border-none transition-all duration-1000 ease-in-out hover:text-white shadow-md">
 
         <div className="text-[50px]">
             {/* <MdComputer /> */}

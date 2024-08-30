@@ -54,7 +54,7 @@ const Testimonies = () => {
 
         <Slider {...settings} className="w-[95%] px-10 mt-[30px]" >
 
-            <h2 className="text-[13px] md:text-[16px] lg:text-[20px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, natus molestiae esse qui officiis fugiat ipsum animi ad in quidem, dolor, eos quasi culpa maxime aperiam nulla. Inventore, pariatur tempora. <br /><span className="font-bold mt-[30px]">- JUDITH UGBO</span></h2>
+            <h2 className="text-[13px] md:text-[16px] lg:text-[20px] text-center">Working with Alakikanju Technology Solutions has been a game-changer for our business. Their team is professional, reliable, and ready to tackle our most demanding challenges. They revamped our infrastructure, significantly improving our system's efficiency and security. We highly recommend them to anyone looking for top-tier IT services.<br /><span className="font-bold mt-[30px]">- JUDITH UGBO</span></h2>
 
             <h2 className="text-[13px] md:text-[16px] lg:text-[20px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, natus molestiae esse qui officiis fugiat ipsum animi ad in quidem, dolor, eos quasi culpa maxime aperiam nulla. Inventore, pariatur tempora. <br /><span className="font-bold mt-[30px]">- MOMODU BENSON</span></h2>
 

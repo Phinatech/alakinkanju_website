@@ -11,7 +11,7 @@ interface iServiceCard {
 const ServicesCard:React.FC<iServiceCard> = ({img, serviceName, serviceContent}) => {
 
   return (
-    <div className="w-full md:w-[32%] lg:w-[30%] bg-serviceCard-bg flex flex-col items-center justify-center text-white h-[350px] rounded-md p-3 gap-5">
+    <div className="w-full md:w-[32%] lg:w-[30%] bg-blue-500 flex flex-col items-center justify-center text-white h-[350px] rounded-md p-3 gap-5">
 
         <div className="text-[60px]">
             {/* <MdComputer /> */}
